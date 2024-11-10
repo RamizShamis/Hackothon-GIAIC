@@ -1,0 +1,66 @@
+
+
+.body{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+
+}
+.default-resume{
+    width: 45%;
+    background-color: rgb(204, 224, 224);
+    border:1px solid rgb(96, 75, 75);
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(61, 61, 19);
+
+}
+.default-resume h2{
+    text-align: center;
+    color: #333;
+
+}
+.default-resume p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+  
+
+/* section */
+.mainn{ 
+    color: white;
+    width: 45%;
+    background-color: darkslategrey;
+    border: 1px solid pink;
+    padding: 20px;
+    box-shadow: 0 0 10px yellow;
+    border-radius: 8px;
+}
+ .mainn label{
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+ }
+   .mainn input[type="text"],
+  .mainn input[type="email"],
+  .mainn input[type="tel"],
+  .mainn input[type="file"],
+
+ .mainn textarea{
+    width: 100px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid yellow;
+    border-radius: 4px;
+ }
+
+ .mainn textarea{
+    height:80px;
+    resize: none;
+}
